@@ -29,8 +29,8 @@ body {
 h1 {
   font-size: 80px;
   font-weight: 700;
-  color: white;
-  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  color: rgb(123, 176, 245);
+  text-shadow: 0 0 30px rgba(255, 255, 255, 2);
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -46,7 +46,7 @@ p {
 }
 
 .content a {
-  color: white;
+  color: rgb(123, 176, 245);
   text-decoration: none;
   font-size: 16px;
   padding: 10px 20px;
@@ -58,7 +58,7 @@ p {
   pointer-events: auto;
   margin-top: 10px;
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
   display: inline-block;
 }
 
@@ -82,7 +82,7 @@ button {
   background: rgba(255, 255, 255, 0.1);
   border: none;
   border-radius: 8px;
-  color: white;
+  color: rgb(123, 176, 245);
   font-size: 14px;
   cursor: pointer;
   backdrop-filter: blur(10px);
