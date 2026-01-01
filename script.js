@@ -7,8 +7,8 @@ let galaxyParticles;
 
 const MAX_PARTICLES = 200;
 const colorPalettes = [
-  [0xff006e, 0xfb5607, 0xffbe0b, 0x8338ec, 0x3a86ff],
   [0xf72585, 0x7209b7, 0x3a0ca3, 0x4361ee, 0x4cc9f0],
+  [0xff006e, 0xfb5607, 0xffbe0b, 0x8338ec, 0x3a86ff],
   [0x06ffa5, 0x00d9ff, 0x7b2cbf, 0xff006e, 0xffbe0b],
   [0xff0a54, 0xff477e, 0xff5c8a, 0xff7096, 0xff85a1]
 ];
@@ -192,7 +192,7 @@ function toggleStyle() {
 }
 
 function createGalaxy() {
-  const starCount = 5000;
+  const starCount = 100000;
   const positions = new Float32Array(starCount * 3);
   const colors = new Float32Array(starCount * 3);
   
@@ -207,7 +207,7 @@ function createGalaxy() {
     const i3 = i * 3;
     
     // Create spiral galaxy shape
-    const radius = Math.random() * 100;
+    const radius = Math.random() * 200;
     const spinAngle = radius * 0.1;
     const branchAngle = ((i % 3) / 3) * Math.PI * 2;
     
